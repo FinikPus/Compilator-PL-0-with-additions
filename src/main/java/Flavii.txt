@@ -1,0 +1,32 @@
+var j,r,n,k,m;
+procedure procLast;
+begin
+  while j <= n do
+  begin
+    r := r + k;
+    r := r % j;
+    j := j + 1;
+  end;
+end;
+begin
+j := 1;
+r := 0;
+read(n);
+read(k);
+if k<1 then
+begin
+    write(0);
+end
+else
+begin
+    call procLast;
+write(r+1);
+end;
+
+m := 0;
+repeat
+    m := m + 1;
+until m >= 5;
+
+
+end.

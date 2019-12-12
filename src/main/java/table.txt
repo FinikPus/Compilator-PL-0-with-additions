@@ -1,0 +1,5 @@
+    1  var: j  lev: 0  addr: 3
+    2  var: r  lev: 0  addr: 4
+    3  var: n  lev: 0  addr: 5
+    4  var: k  lev: 0  addr: 6
+    5 proc: procLast  lev: 0  addr: 3
